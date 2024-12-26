@@ -1,0 +1,80 @@
+.contact-us {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-align: center;
+  }
+  
+  .contact-us__title {
+    font-size: 64px; /* Increased size for emphasis */
+    font-family: var(--playfair-display);
+    font-weight: 700; /* Slightly bolder for a strong presence */
+    line-height: 90px; /* Adjusted line-height for readability */
+    color: #000; /* Black for visibility */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us__form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-family: var(--plus-jakarta-sans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000; /* Changed to black */
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px 16px;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #000; /* Changed to black */
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Adjusted to match black text */
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgba(0, 0, 0, 0.6); /* Changed to dark grey */
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: var(--primary-color);
+  }
+  
+  .contact-us__form button {
+    padding: 12px 28px;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #fff;
+    background: #000; /* Changed to black */
+    border: none;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .contact-us__form button:hover {
+    background: var(--primary-color);
+    color: #fff;
+  }
+  
